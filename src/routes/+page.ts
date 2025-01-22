@@ -1,3 +1,6 @@
+export const prerender = true;
+export const ssr = true;
+
 import { getCurrency } from '$lib';
 
 interface APIError {
